@@ -1,1 +1,9 @@
-{"version":2}
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/ps-rain", "destination": "/rain.ps1" },
+    { "source": "/bat-rain", "destination": "/bat-rain.ps1" },
+    { "source": "/rain", "destination": "/rain.bat" },
+    { "source": "/", "destination": "/index.html" },
+  ]
+}
